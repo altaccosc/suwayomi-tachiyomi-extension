@@ -25,7 +25,9 @@ fragment MangaFragment on MangaType {
     downloadCount
     source {
         displayName
+        baseUrl
     }
+    url
 }
 
 mutation GetManga($mangaId: Int!) {
